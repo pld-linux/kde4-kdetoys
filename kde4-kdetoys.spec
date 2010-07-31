@@ -6,12 +6,12 @@
 Summary:	Kdetoys
 Summary(pl.UTF-8):	Kdetoys
 Name:		kde4-kdetoys
-Version:	4.4.5
+Version:	4.5.0
 Release:	1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	298f1781f26041b8692d8b7e356519df
+# Source0-md5:	5fe873b58a5aad6ff452064d7113bfb9
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtCore-devel >= %{qtver}
@@ -111,19 +111,19 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/*x*/apps/ktux.png
 %{_datadir}/kde4/services/ScreenSavers/ktux.desktop
 
-%files kweather
-%defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/kweatherreport
-%attr(755,root,root) %{_bindir}/kweatherservice
-%{_libdir}/kde4/kcm_weather.so
-%{_libdir}/kde4/kcm_weatherservice.so
-%{_libdir}/libkdeinit4_kweatherreport.so
-%{_datadir}/apps/kweather
-%{_datadir}/apps/kweatherservice
-%{_datadir}/dbus-1/interfaces/org.kde.kweather.kweather.xml
-%{_datadir}/dbus-1/interfaces/org.kde.kweather.service.xml
-%{_kdedocdir}/en/kweather
-%{_iconsdir}/hicolor/*x*/apps/kweather.png
-%{_datadir}/kde4/services/kcmweather.desktop
-%{_datadir}/kde4/services/kcmweatherservice.desktop
-%{_datadir}/kde4/services/kweatherservice.desktop
+#%files kweather
+#%defattr(644,root,root,755)
+#%attr(755,root,root) %{_bindir}/kweatherreport
+#%attr(755,root,root) %{_bindir}/kweatherservice
+#%{_libdir}/kde4/kcm_weather.so
+#%{_libdir}/kde4/kcm_weatherservice.so
+#%{_libdir}/libkdeinit4_kweatherreport.so
+#%{_datadir}/apps/kweather
+#%{_datadir}/apps/kweatherservice
+#%{_datadir}/dbus-1/interfaces/org.kde.kweather.kweather.xml
+#%{_datadir}/dbus-1/interfaces/org.kde.kweather.service.xml
+#%{_kdedocdir}/en/kweather
+#%{_iconsdir}/hicolor/*x*/apps/kweather.png
+#%{_datadir}/kde4/services/kcmweather.desktop
+#%{_datadir}/kde4/services/kcmweatherservice.desktop
+#%{_datadir}/kde4/services/kweatherservice.desktop
