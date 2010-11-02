@@ -6,12 +6,12 @@
 Summary:	Kdetoys
 Summary(pl.UTF-8):	Kdetoys
 Name:		kde4-kdetoys
-Version:	4.5.2
+Version:	4.5.3
 Release:	1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	4ac497a3b30d728b2c69af44feabf87f
+# Source0-md5:	675d4aee3d18a0a696742704ab45ee02
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtCore-devel >= %{qtver}
