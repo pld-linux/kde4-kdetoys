@@ -1,7 +1,7 @@
 #
 %define		_state		stable
 %define		orgname		kdetoys
-%define		qtver		4.7.0
+%define		qtver		4.7.1
 
 Summary:	Kdetoys
 Summary(pl.UTF-8):	Kdetoys
@@ -25,7 +25,7 @@ BuildRequires:	kde4-kdebase-workspace-devel >= %{version}
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
-BuildRequires:	rpmbuild(macros) >= 1.293
+BuildRequires:	rpmbuild(macros) >= 1.600
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -68,12 +68,8 @@ A weather reporting panel applet.
 %build
 install -d build
 cd build
-%cmake .. \
-	-DCMAKE_BUILD_TYPE=%{!?debug:Release}%{?debug:Debug} \
-	-DCMAKE_INSTALL_PREFIX=%{_prefix} \
-%if "%{_lib}" == "lib64"
-	-DLIB_SUFFIX=64
-%endif
+%cmake \
+	.. \
 
 %{__make}
 
