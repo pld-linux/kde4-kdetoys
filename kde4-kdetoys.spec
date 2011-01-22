@@ -13,12 +13,6 @@ Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
 # Source0-md5:	2025e1931ada4d1b1d37371df9847865
 URL:		http://www.kde.org/
-BuildRequires:	Qt3Support-devel >= %{qtver}
-BuildRequires:	QtCore-devel >= %{qtver}
-BuildRequires:	QtDBus-devel >= %{qtver}
-BuildRequires:	QtGui-devel >= %{qtver}
-BuildRequires:	QtSvg-devel >= %{qtver}
-BuildRequires:	QtTest-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdebase-workspace-devel >= %{version}
