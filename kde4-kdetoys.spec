@@ -1,17 +1,17 @@
 #
 %define		_state		stable
 %define		orgname		kdetoys
-%define		qtver		4.7.3
+%define		qtver		4.7.4
 
 Summary:	Kdetoys
 Summary(pl.UTF-8):	Kdetoys
 Name:		kde4-kdetoys
-Version:	4.6.5
+Version:	4.7.1
 Release:	1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	ef30e4433fdfb076f2bfb78799ad6537
+# Source0-md5:	b6d5b199536080c20ab7fa26fdfdb9e7
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.8.0
