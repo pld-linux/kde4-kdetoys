@@ -93,6 +93,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/apps/kteatime
 %{_kdedocdir}/en/kteatime
 %{_iconsdir}/hicolor/*x*/apps/kteatime.png
+%{_iconsdir}/hicolor/scalable/apps/kteatime.svgz
 
 %files ktux
 %defattr(644,root,root,755)
