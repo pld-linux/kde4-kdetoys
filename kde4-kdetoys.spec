@@ -40,14 +40,14 @@ Summary:	kteatime
 Group:		X11/Applications
 
 %description kteatime
-Kteatime.
+System tray applet that makes sure your tea doesn't get too strong.
 
 %package ktux
 Summary:	ktux
 Group:		X11/Applications
 
 %description ktux
-Ktux.
+Tux in a spaceship screen saver.
 
 %package kweather
 Summary:	kweather
