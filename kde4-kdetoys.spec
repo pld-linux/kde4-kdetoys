@@ -6,12 +6,12 @@
 Summary:	Kdetoys
 Summary(pl.UTF-8):	Kdetoys
 Name:		kde4-kdetoys
-Version:	4.9.0
+Version:	4.9.1
 Release:	1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	c9232d49b4368ff0e94b902ead11a531
+# Source0-md5:	85954ef6537df644c3665bff37b70bcf
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.8.0
